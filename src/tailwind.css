@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.sidebar-spotify::-webkit-scrollbar {
+  width: 8px;
+  background-color: #040404;
+}
+
+.sidebar-spotify::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #535353;
+}
+
+.content-spotify::-webkit-scrollbar {
+  width: 8px;
+  background-color: #121212;
+}
+
+.content-spotify::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #535353;
+}
+
+progress::-webkit-progress-bar {
+  border-radius: 50rem;
+}
+
+progress::-webkit-progress-value {
+  background-color: #edf2f7;
+}
+
+progress:hover::-webkit-progress-value {
+  background-color: #1db954;
+}
+
+progress:hover::-webkit-progress-value::after {
+  content: '';
+  width: 1rem;
+  height: 1rem;
+  background-color: white;
+  position: absolute;
+  border-radius: 100%;
+}
